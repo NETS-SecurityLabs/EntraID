@@ -1,5 +1,6 @@
 ## 관리자 페이지 열기
-  1. Entra ID 관리 사이트 접근 (<a href="https://entra.microsoft.com/" target="_blank" rel="noopener noreferrer">https://entra.microsoft.com/</a>)
+  1. Entra ID 관리 사이트 접근 (![https://entra.microsoft.com/](https://entra.microsoft.com/))
+  2. 앱 관리자 권한이 있는 사용자 계정으로 로그인
 
 ## Salesforce 도메인 확인하기
   1. <<생성한 도메인 주소를 확인하기>>
