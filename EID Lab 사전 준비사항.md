@@ -5,7 +5,7 @@
   3. 정보를 입력하고 `Sign me up` 버튼 클릭하여 가입
      <a href="#void"><img src="./.srcs/sfdc.step01.02.png" alt="Salesforce 가입" /></a>
   4. 접근 도메인 및 사용자 계정 정보 확인
-     가입이 완료되면 다음과 같은 형식의 URL이 표시됩니다.
+     입력한 이메일 주소로 URL, 이메일, 비밀번호 재설정 버튼이 포함된 메일이 전송됩니다.
 
      `https://orgfam-<random code>-dev-ed.develop.my.salesforce.com`
 
