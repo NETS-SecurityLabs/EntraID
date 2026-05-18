@@ -6,5 +6,7 @@
      <a href="#void"><img src="./.srcs/sfdc.step01.02.png" alt="Salesforce 가입" /></a>
   4. 접근 도메인 및 사용자 계정 정보 확인
      가입이 완료되면 다음과 같은 형식의 URL이 표시됩니다.
+
      `https://orgfam-<random code>-dev-ed.develop.my.salesforce.com`
+
      확인된 도메인은 Entra ID와 인증을 통합할 때 Single Sign On 구성 단계에서 사용됩니다.
