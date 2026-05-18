@@ -8,11 +8,13 @@
   2. 새로 열련 창의 좌측 메뉴에서 `관리` > `사용자` > `사용자` 선택
   3. `새 사용자` 버튼 클릭
   4. 다음 항목 입력
-    - 성: `<name>`labuser01
-    - 별칭: `<name>`labuser01
-    - 이메일: `<name>`labuser01@lab.castanets.io
-    - 사용자 라이센스: Chatter Free
-    - 프로필: Chatter Free User
+        - 성: `<name>`labuser01
+        - 별칭: `<name>`labuser01
+        - 이메일: `인증 코드를 받을 수 있는 개인 또는 업무용 메일`
+        - 사용자 이름: `<name>`labuser01@lab.castanets.io
+        - 별명: `<name>`labuser01
+        - 사용자 라이센스: Chatter Free
+        - 프로필: Chatter Free User
   5. '저장' 버튼 클릭하여 새 사용자 등록
 
 ## Secret/inPrivate 모드로 새 브라우저 실행
