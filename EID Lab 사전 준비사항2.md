@@ -5,7 +5,9 @@ GitHub 계정 생성부터 Codespace 실행까지 단계별로 안내합니다.
 
 ## Step 1. GitHub Codespaces 소개 페이지 접속
 
-`https://github.com/features/codespaces` 에 접속하면 GitHub Codespaces 소개 페이지를 확인할 수 있습니다. GitHub 계정이 **있다면** `[무료로 시작하기]` 버튼을 통해 시작하거나 `[로그인(Sign in)]` 버튼을 통해 시작할 수 있습니다.
+[https://github.com/features/codespaces](https://github.com/features/codespaces) 에 접속하면 GitHub Codespaces 소개 페이지를 확인할 수 있습니다.  
+
+GitHub 계정이 **있다면** `[무료로 시작하기]` 버튼을 통해 시작하거나 `[로그인(Sign in)]` 버튼을 통해 시작할 수 있습니다.
 
 ![Step 1 화면](./.srcs/msal.01.png)
 
@@ -13,7 +15,7 @@ GitHub 계정 생성부터 Codespace 실행까지 단계별로 안내합니다.
 
 ## Step 1-1. GitHub 계정이 있는 경우
 
-오른쪽 상단의 `[Dashboard]` 버튼을 통해 Codespace 대시보드로 이동합니다. 이후 `Step 5`에서 이어서 진행합니다.
+오른쪽 상단의 `[Dashboard]` 버튼을 통해 Github 대시보드로 이동합니다. 이후 `Step 5`에서 이어서 진행합니다.
 
 ![Step 1-1 화면](./.srcs/msal.01a.png)
 
@@ -53,13 +55,13 @@ GitHub가 Google 계정 정보(이름, 이메일)에 접근하는 것을 허용�
 
 ## Step 5. GitHub 대시보드 접속 확인
 
-인증 완료 후 GitHub 대시보드(Home)로 진입됩니다. 이제 레포지토리 생성 및 `Codespace`를 사용할 수 있습니다.
+인증 완료 후 GitHub 대시보드(Home)로 진입됩니다. 이제 `Codespace`를 사용할 수 있습니다.
 
-![Step 5 화면](./.srcs/msal.07.png)
+![Step 5 화면](./.srcs/msal.08.png)
 
 ---
 
-## Step 6. Codespaces 메뉴로 이동
+## Step 6. Codespace 메뉴로 이동
 
 좌측 사이드바에서 `[Codespaces]` 항목을 클릭합니다.
 
@@ -67,7 +69,8 @@ GitHub가 Google 계정 정보(이름, 이메일)에 접근하는 것을 허용�
 
 ![Step 6 화면 2](./.srcs/msal.11.png)
 
-Codespaces 메인 페이지가 열립니다. 다음으로 하단의 템플릿 중 `[.NET]`을 선택하여 `.NET` 개발용 Codespace를 생성합니다.
+Codespace 메인 페이지가 열립니다.  
+다음으로 하단의 템플릿 중 `[.NET]`을 확인한 후 `[Use This Template]` 버튼을 통해 `.NET` 개발용 Codespace를 생성합니다.
 
 ![Step 6 화면 3](./.srcs/msal.12.png)
 
