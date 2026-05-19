@@ -18,10 +18,11 @@
 ## Hands-on Lab 목차
 Entra ID를 중심으로 SaaS에 대한 인증 통합을 구성하는 실습입니다.
 
-1. [EID Lab 사전 준비사항](EID%20Lab%20사전%20준비사항.md)
-2. [EID Step01 - IdP에 App 등록 및 구성](EID%20Step01%20-%20IdP(Entra%20ID)에%20App%20등록%20및%20SP%20정보%20입력.md)
-3. [EID Step02 - SP에 IdP 연동](EID%20Step02%20-%20SP(Salesforce)에%20IdP(Entra%20ID)%20정보%20등록.md)
-4. [EID Step03 - 통합 인증 테스트](EID%20Step03%20-%20Login%20Test.md)
+1. [Lab 사전 준비사항1](Lab%20사전%20준비사항1.md)
+1. [Lab 사전 준비사항2](Lab%20사전%20준비사항2.md)
+2. [Step1~2 IdP에 App 등록 및 구성](Step1~2%20IdP에%20App%20등록%20및%20구성.md)
+3. [Step3~4 SP에 IdP 연동](Step3~4%20SP에%20IdP%20연동.md)
+4. [Step5~6 통합 인증 테스트](Step5~6%20통합%20인증%20테스트.md)
 
 ---
 
