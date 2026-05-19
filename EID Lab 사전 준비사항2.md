@@ -7,7 +7,7 @@ GitHub 계정 생성부터 Codespace 실행까지 단계별로 안내합니다.
 
 `https://github.com/features/codespaces` 에 접속하면 GitHub Codespaces 소개 페이지를 확인할 수 있습니다. GitHub 계정이 **있다면** `[무료로 시작하기]` 버튼을 통해 시작하거나 `[로그인(Sign in)]` 버튼을 통해 시작할 수 있습니다.
 
-![Step 1 화면](.srcs\msal.01.png)
+![Step 1 화면](./.srcs/msal.01.png)
 
 ---
 
