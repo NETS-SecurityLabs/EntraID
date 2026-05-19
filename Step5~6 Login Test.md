@@ -1,5 +1,5 @@
 ## Salesforce 로그인
-  1. [EID Lab 사전 준비사항](EID%20Lab%20사전%20준비사항.md) 참고하여 접근 도메인 및 관리자 계정 확인
+  1. [Lab 사전 준비사항1](Lab%20사전%20준비사항1.md) 참고하여 접근 도메인 및 관리자 계정 확인
   2. 브라우저에서 생성된 Salseforce URL로 접근(`https://orgfarm-<random key>-dev-ed.develop.my.salesforce.com/`)
   3. 관리자 계정을 입력하여 로그인
 
