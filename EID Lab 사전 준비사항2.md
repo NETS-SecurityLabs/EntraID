@@ -84,3 +84,31 @@ Codespace 메인 페이지가 열립니다.
 이제 터미널, 파일 탐색기, 에디터를 통한 실습을 진행할 수 있습니다.
 
 ![Step 5 화면](./.srcs/msal.13.png)
+
+## Step 6. 실습 코드 다운로드
+
+- **(주의)** 진행과정에서 vscode 영역에서 마우스 우클릭 동작을 하는 경우 아래 이미지와 같은 복사 붙여넣기를 위한 클립보드 사용 요청이 표시됩니다.  
+`[허용]`을 선택해야 이 후 원활한 진행이 가능합니다.
+
+![alt text](./.srcs/msal.15.png)
+
+<br>
+
+- 만약 클립보드 붙여넣기 팝업 창을 실수로 닫은 경우 브라우저의 주소창 영역에서 클립보드 사용을 허용할 수 있습니다.
+![alt text](./.srcs/msal.16.png)
+
+1. 화면 하단의 터미널 탭 선택 후 예제 파일 다운로드 명령어를 입력 후 엔터키를 입력합니다.
+```cmd
+git clone https://github.com/NETS-SecurityLabs/EntraID_MSAL.git
+```
+![alt text](./.srcs/msal.17.png)
+
+2. 파일이 정상적으로 다운로드 되면 아래와 같이 EntraID_MSAL 폴더가 생성됩니다.
+![alt text](./.srcs/msal.18.png)
+
+이 후 EntraID_MSAL > EntraID.ASP.NETCore.Board 순으로 폴더를 확장하여 HOL.md 파일을 확인합니다.
+해당 파일에서 마우스 우클릭 후 **미리 보기 열기**를 선택합니다.
+
+![alt text](./.srcs/msal.19.png)
+
+나머지 과정은 HOL.md 파일을 통해 진행됩니다.
