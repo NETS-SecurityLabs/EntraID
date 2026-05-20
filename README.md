@@ -20,13 +20,13 @@ Entra ID를 중심으로 SAML 프로토콜을 사용하는 SaaS에 대한 인증
 
 1. [Lab 사전 준비사항1](Lab%20사전%20준비사항1.md)
 2. [Lab 사전 준비사항2](Lab%20사전%20준비사항2.md)
-3. [Step1~2 IdP에 App 등록 및 구성](Step1~2%20IdP에%20App%20등록%20및%20구성.md)
-4. [Step3~4 SP에 IdP 연동](Step3~4%20SP에%20IdP%20연동.md)
-5. [Step5~6 통합 인증 테스트](Step5~6%20통합%20인증%20테스트.md)
+3. [Step1~2 IdP에 App 등록 및 구성](Session4%20Step1~2%20IdP에%20App%20등록%20및%20구성.md)
+4. [Step3~4 SP에 IdP 연동](Session4%20Step3~4%20SP에%20IdP%20연동.md)
+5. [Step5~6 통합 인증 테스트](Session4%20Step5~6%20통합%20인증%20테스트.md)
 
 ## Session5 Legacy 인증 연동 Hands-on lab 목차
 Entra ID를 중심으로 OIDC 프로토콜을 사용하도록 Legacy 앱에 대한 인증 통합 실습입니다.
-(별도 안내)
+자세한 내용은 [MSAL Hands-On Lab](https://github.com/NETS-SecurityLabs/EntraID_MSAL)을 참고하세요.
 
 ## Session6 보안 적용 목차
 Entra ID Conditional Access를 이용해 Zero Trust를 구축하는 실습입니다.
