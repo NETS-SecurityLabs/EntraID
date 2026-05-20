@@ -28,9 +28,10 @@ Entra ID를 중심으로 SAML 프로토콜을 사용하는 SaaS에 대한 인증
 Entra ID를 중심으로 OIDC 프로토콜을 사용하도록 Legacy 앱에 대한 인증 통합 실습입니다.
 자세한 내용은 [MSAL Hands-On Lab](https://github.com/NETS-SecurityLabs/EntraID_MSAL)을 참고하세요.
 
-## Session6 보안 적용 목차
+## Session6 보안 적용 목차 
 Entra ID Conditional Access를 이용해 Zero Trust를 구축하는 실습입니다.
 (별도 안내)
+
 ---
 
 본 저장소의 자료는 교육 및 실습 목적으로만 사용해 주시기 바랍니다.
