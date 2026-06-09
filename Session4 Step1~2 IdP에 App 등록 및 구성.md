@@ -34,9 +34,13 @@
      <a href="#void"><img src="./.srcs/eid.step01.10.png" alt="새 클레임 추가" /></a>     
   11. 클레임 관리 에서 `이름`에는 Salesforce 속성명 입력, `원본 특성` 에는 Entra ID 속성 선택
      <a href="#void"><img src="./.srcs/eid.step01.11.png" alt="새 클레임 추가" /></a><br>
-  12. `아래 리스트에 있는 클레임은 전부 추가 해야 합니다.`  <br>단, User.Profileld 속성의 값은 상수값 `00eNS00000JykTK` 값을 그대로 입력 합니다
+  12. `아래 리스트에 있는 클레임은 전부 추가 해야 합니다.`
+      <br>단, `User.EmailEncodingKey` 속성의 값은 상수값 `UTF-8` 값을 그대로 입력 합니다.
+      <br>단, `User.LanguageLocaleKey` 속성의 값은 상수값 `ko` 값을 그대로 입력 합니다.
+      <br>단, `User.LocaleSidKey` 속성의 값은 상수값 `ko_KR` 값을 그대로 입력 합니다.
+      <br>단, `User.Profileld` 속성의 값은 상수값 `00eNS00000JykTK` 값을 그대로 입력 합니다.
      <a href="#void"><img src="./.srcs/eid.step01.12.png" alt="추가해야할 속성 리스트" /></a>            
-  13. 상단의 `저장` 버튼을 클릭하여 작성한 내용 반영
+  14. 상단의 `저장` 버튼을 클릭하여 작성한 내용 반영
 
 ## 앱 속성 변경
   1. `<name>-Salesforce` 앱의 `속성` 메뉴에서 `할당이 필요함니까?` 항목을 `예`로 변경
