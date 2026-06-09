@@ -25,11 +25,16 @@
   5. 우측 팝업에서 `식별자 추가` 링크 클릭
      <a href="#void"><img src="./.srcs/eid.step01.05.png" alt="SAML SP 정보 입력" /></a>
   6. 식별자 입력 란에 <<확인된 Salesforce 도메인 주소>> 를 붙여넣기
-  
      <a href="#void"><img src="./.srcs/eid.step01.06.png" alt="SAML SP 정보 입력" /></a>
   7. `답장 URL 추가` 링크 클릭 클릭하여 같은 URL 붙여넣기
   8. `로그온 URL` 입력 란에 같은 URL 붙여넣기
-  9. 상단의 `저장` 버튼을 클릭하여 작성한 내용 반영
+  9. '특성 및 클레임' 에서 '편집' 클릭
+     <a href="#void"><img src="./.srcs/eid.step01.09.png" alt="클레임 편집" /></a>     
+  10. '+ 새 클레임 추가' 클릭
+     <a href="#void"><img src="./.srcs/eid.step01.10.png" alt="새 클레임 추가" /></a>     
+  11. '클레임 관리' 에서 이름에는 Salesforce 속성명 입력, '원본 특성' 에는 Entra ID 속성 선택
+     <a href="#void"><img src="./.srcs/eid.step01.11.png" alt="새 클레임 추가" /></a>              
+  12. 상단의 `저장` 버튼을 클릭하여 작성한 내용 반영
 
 ## SP에 제공할 메타데이터 XML 다운로드
   1. (3)SAML 인증서 섹션에서 `페더레이션 메타데이터 XML`에 대한 `다운로드` 링크 클릭
