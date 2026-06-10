@@ -44,7 +44,7 @@
       <br> `User.LastName` 속성의 값은 원본 특성 에서 `user.surname` 선택 합니다.
       <br> `User.LocaleSidKey` 속성의 값은 상수값 `ko_KR` 값을 그대로 입력 합니다.
       <br> `User.Profileld` 속성의 값은 상수값 `00eNS00000JykTK` 값을 그대로 입력 합니다.
-      <br> `User.Username` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다. 
+      <br> `User.Username` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다. <br>
      <a href="#void"><img src="./.srcs/eid.step01.12.png" alt="추가해야할 속성 리스트" /></a>            
   14. 상단의 `저장` 버튼을 클릭하여 작성한 내용 반영
 
