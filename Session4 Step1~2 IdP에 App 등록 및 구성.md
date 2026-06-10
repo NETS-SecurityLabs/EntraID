@@ -28,13 +28,14 @@
      <a href="#void"><img src="./.srcs/eid.step01.06.png" alt="SAML SP 정보 입력" /></a>
   7. `답장 URL 추가` 링크 클릭 클릭하여 같은 URL 붙여넣기
   8. `로그온 URL` 입력 란에 같은 URL 붙여넣기
-  9. `특성 및 클레임` 에서 '편집' 클릭
+  9. `특성 및 클레임` 에서 '편집' 클릭<br>
+     `추가 클레임` 에서 등록되어 있는 속성을 `...` 눌러서 `삭제` 버튼 클릭 하여 전부 제거 <br>
      <a href="#void"><img src="./.srcs/eid.step01.09.png" alt="클레임 편집" /></a>     
-  10. `+ 새 클레임 추가` 클릭
+  11. `+ 새 클레임 추가` 클릭
      <a href="#void"><img src="./.srcs/eid.step01.10.png" alt="새 클레임 추가" /></a>     
-  11. 클레임 관리 에서 `이름`에는 Salesforce 속성명 입력, `원본 특성` 에는 Entra ID 속성 선택
+  12. 클레임 관리 에서 `이름`에는 Salesforce 속성명 입력, `원본 특성` 에는 Entra ID 속성 선택
      <a href="#void"><img src="./.srcs/eid.step01.11.png" alt="새 클레임 추가" /></a><br>
-  12. `아래 리스트에 있는 클레임은 전부 추가 해야 합니다.`
+  13. `아래 리스트에 있는 클레임은 전부 추가 해야 합니다.`
       <br> `User.Alias` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다.
       <br> `User.CommunityNickname` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다.
       <br> `User.Email` 속성의 값은 원본 특성 에서 `user.mail` 선택 합니다.
