@@ -28,7 +28,8 @@
      <a href="#void"><img src="./.srcs/eid.step01.06.png" alt="SAML SP 정보 입력" /></a>
   7. `답장 URL 추가` 링크 클릭 클릭하여 같은 URL 붙여넣기
   8. `로그온 URL` 입력 란에 같은 URL 붙여넣기
-  9. `특성 및 클레임` 에서 '편집' 클릭<br>
+  9. 상단의 `저장` 버튼을 클릭하여 작성한 내용 반영
+  10. `특성 및 클레임` 에서 '편집' 클릭<br>
      `추가 클레임` 에서 등록되어 있는 속성을 `...` 눌러서 `삭제` 버튼 클릭 하여 전부 제거 <br>
      <a href="#void"><img src="./.srcs/eid.step01.09.png" alt="클레임 편집" /></a>     
   11. `+ 새 클레임 추가` 클릭
@@ -47,7 +48,6 @@
       <br> `User.Profileld` 속성의 값은 상수값 `00eNS00000JykTK` 값을 그대로 입력 합니다.
       <br> `User.Username` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다. <br>
      <a href="#void"><img src="./.srcs/eid.step01.12.png" alt="추가해야할 속성 리스트" /></a>            
-  14. 상단의 `저장` 버튼을 클릭하여 작성한 내용 반영
 
 ## 앱 속성 변경
   1. `<name>-Salesforce` 앱의 `속성` 메뉴에서 `할당이 필요함니까?` 항목을 `아니오`로 변경
