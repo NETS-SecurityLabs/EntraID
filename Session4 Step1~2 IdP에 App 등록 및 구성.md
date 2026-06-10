@@ -35,25 +35,22 @@
   11. 클레임 관리 에서 `이름`에는 Salesforce 속성명 입력, `원본 특성` 에는 Entra ID 속성 선택
      <a href="#void"><img src="./.srcs/eid.step01.11.png" alt="새 클레임 추가" /></a><br>
   12. `아래 리스트에 있는 클레임은 전부 추가 해야 합니다.`
+      <br>단, `User.Alias` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다.
+      <br>단, `User.CommunityNickname` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다.
+      <br>단, `User.Email` 속성의 값은 원본 특성 에서 `user.mail` 선택 합니다.
       <br>단, `User.EmailEncodingKey` 속성의 값은 상수값 `UTF-8` 값을 그대로 입력 합니다.
+      <br>단, `User.FederationIdentifier` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다.
       <br>단, `User.LanguageLocaleKey` 속성의 값은 상수값 `ko` 값을 그대로 입력 합니다.
+      <br>단, `User.LastName` 속성의 값은 원본 특성 에서 `user.surname` 선택 합니다.
       <br>단, `User.LocaleSidKey` 속성의 값은 상수값 `ko_KR` 값을 그대로 입력 합니다.
       <br>단, `User.Profileld` 속성의 값은 상수값 `00eNS00000JykTK` 값을 그대로 입력 합니다.
+      <br>단, `User.Username` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다. 
      <a href="#void"><img src="./.srcs/eid.step01.12.png" alt="추가해야할 속성 리스트" /></a>            
   14. 상단의 `저장` 버튼을 클릭하여 작성한 내용 반영
 
 ## 앱 속성 변경
-  1. `<name>-Salesforce` 앱의 `속성` 메뉴에서 `할당이 필요함니까?` 항목을 `예`로 변경
+  1. `<name>-Salesforce` 앱의 `속성` 메뉴에서 `할당이 필요함니까?` 항목을 `아니오`로 변경
   2. 화면 아래쪽의 `저장` 버튼 클릭하여 변경 내용 저장
-
-## 로그인 대상 사용자 추
-  1. `<name>-Salesforce` 앱의 `사용자 및 그룹` 메뉴에서 클릭 후 `+사용자/그룹추가` 버튼 클릭
-      <a href="#void"><img src="./.srcs/eid.step01.useradd.png" alt="사용자 및 그룹 메뉴" /></a>
-  2. `사용자 및 그룹` 메뉴에서 `선택된 항목 없음` 클릭 후 사용자 검색 하여 체크 후 `선택` 버튼 클릭
-      <a href="#void"><img src="./.srcs/eid.step01.userlist.png" alt="사용자 할당" /></a>
-  3. `역할 선택` 메뉴에서 `선택된 항목 없음` 클릭 후 `Chatter Free User` 선택 후 `할당` 버튼 클릭
-      <a href="#void"><img src="./.srcs/eid.step01.userrole.png" alt="역할 할당" /></a>
-  3. 화면 아래쪽의 `저장` 버튼 클릭하여 변경 내용 저장
 
 ## SP에 제공할 메타데이터 XML 다운로드
   1. (3)SAML 인증서 섹션에서 `페더레이션 메타데이터 XML`에 대한 `다운로드` 링크 클릭
