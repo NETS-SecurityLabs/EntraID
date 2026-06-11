@@ -1,7 +1,7 @@
 ## 관리자 페이지 열기
   1. Entra ID 관리 사이트 접근 ([https://entra.microsoft.com/](https://entra.microsoft.com/))
   2. 앱 관리자 권한이 있는 사용자 계정으로 로그인<br><br>
-   <a href="#void"><img src="./.srcs/Entrid.reg.png.png" alt="Entra ID 관리자 계정 등록" /></a>
+   <a href="#void"><img src="./.srcs/Entrid.reg.png" alt="Entra ID 관리자 계정 등록" /></a>
 
 ## Salesforce 도메인 확인하기
   1. [Lab 사전 준비사항1](Lab%20사전%20준비사항1.md) 참고하여 접근 도메인 확인
