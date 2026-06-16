@@ -138,6 +138,6 @@ git clone https://github.com/NETS-SecurityLabs/EntraID_MSAL.git
 1. 네트워크 환경 변경(wifi AP 변경 혹은 테더링을 통한 접속)
 2. 접속 브라우저 변경(다른 브라우저 사용 혹은 in-private 모드 사용 등)
 
-아직 명확한 원인이 확인되지 않은 현상으로 상기의 조치로도 오류 현상이 해소되지 않는 경우도 있습니다.
+본 현상은 아직 명확한 원인이 확인되지 않아, 상기 조치를 적용한 후에도 오류가 지속될 수 있습니다.
 
 ![alt text](./.srcs/msal.21.png)
