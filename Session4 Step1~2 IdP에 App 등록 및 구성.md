@@ -1,0 +1,61 @@
+https://login.microsoftonline.com/c21f607f-5f45-4c81-913f-1e716495f29e/federationmetadata/2007-06/federationmetadata.xml?appid=<AppID>
+
+## 관리자 페이지 열기
+  1. Entra ID 관리 사이트 접근 ([https://entra.microsoft.com/](https://entra.microsoft.com/))
+  2. 앱 관리자 권한이 있는 사용자 계정으로 로그인<br><br>
+   <a href="#void"><img src="./.srcs/Entrid.reg.png" alt="Entra ID 관리자 계정 등록" /></a>
+
+## Salesforce 도메인 확인하기
+  1. [Lab 사전 준비사항1](Lab%20사전%20준비사항1.md) 참고하여 접근 도메인 확인
+
+## 앱 등록하기
+  1. 좌측 메뉴에서 Entra ID > 엔터프라이즈 앱 선택
+  2. `+ 새로운 애플리케이션` 버튼 클릭
+  3. 애플리케이션 검색 박스에 "salesforce" 입력하여 검색
+  4. 검색 결과에서 "Salseforce" 타일 선택
+  5. 우측 팝업 에서 이름을 `<name>-Salesforce`로 지정
+  6. 만들기 버튼 클릭하여 앱 등록 완료
+  <a href="#void"><img src="./.srcs/eid.step01.01.png" alt="엔터프라이즈 앱 등록" /></a>
+
+## Single Sign On 설정: IdP에 SP의 정보 기록하기
+  1. 앱 목록에서 생성한 `<name>-Salesforce` 앱 선택
+  2. 개요 페이지에서 `2. Single Sign On 설정` 타일의 `시작` 링크 선택
+     <a href="#void"><img src="./.srcs/eid.step01.02.png" alt="SSO 설정하기" /></a>
+  3. `Single Sign-On 방법 선택` 에서 `SAML` 타일 선택
+     <a href="#void"><img src="./.srcs/eid.step01.03.png" alt="SAML SP 정보 입력" /></a>
+  4. (1)기본 SAML 구성 섹션의 `편집` 링크 선택
+     <a href="#void"><img src="./.srcs/eid.step01.04.png" alt="SAML SP 정보 입력" /></a>
+  5. 우측 팝업에서 `식별자 추가` 링크 클릭
+     <a href="#void"><img src="./.srcs/eid.step01.05.png" alt="SAML SP 정보 입력" /></a>
+  6. 식별자 입력 란에 <<확인된 Salesforce 도메인 주소>> 를 붙여넣기
+     <a href="#void"><img src="./.srcs/eid.step01.06.png" alt="SAML SP 정보 입력" /></a>
+  7. `답장 URL 추가` 링크 클릭 클릭하여 같은 URL 붙여넣기
+  8. `로그온 URL` 입력 란에 같은 URL 붙여넣기
+  9. 상단의 `저장` 버튼을 클릭하여 작성한 내용 반영
+  10. `특성 및 클레임` 에서 '편집' 클릭<br>
+     `추가 클레임` 에서 등록되어 있는 속성을 `...` 눌러서 `삭제` 버튼 클릭 하여 전부 제거 <br>
+     <a href="#void"><img src="./.srcs/eid.step01.09.png" alt="클레임 편집" /></a>     
+  11. `+ 새 클레임 추가` 클릭
+     <a href="#void"><img src="./.srcs/eid.step01.10.png" alt="새 클레임 추가" /></a>     
+  12. 클레임 관리 에서 `이름`에는 Salesforce 속성명 입력, `원본 특성` 에는 Entra ID 속성 선택
+     <a href="#void"><img src="./.srcs/eid.step01.11.png" alt="새 클레임 추가" /></a><br>
+  13. `아래 리스트에 있는 클레임은 전부 추가 해야 합니다.`
+      <br> `User.Alias` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다.
+      <br> `User.CommunityNickname` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다.
+      <br> `User.Email` 속성의 값은 원본 특성 에서 `user.mail` 선택 합니다.
+      <br> `User.EmailEncodingKey` 속성의 값은 상수값 `UTF-8` 값을 그대로 입력 합니다.
+      <br> `User.FederationIdentifier` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다.
+      <br> `User.LanguageLocaleKey` 속성의 값은 상수값 `ko` 값을 그대로 입력 합니다.
+      <br> `User.LastName` 속성의 값은 원본 특성 에서 `user.surname` 선택 합니다.
+      <br> `User.LocaleSidKey` 속성의 값은 상수값 `ko_KR` 값을 그대로 입력 합니다.
+      <br> `User.Profileld` 속성의 값은 상수값 `00eNS00000JykTK` 값을 그대로 입력 합니다.
+      <br> `User.Username` 속성의 값은 원본 특성 에서 `user.userprincipalname` 선택 합니다. <br>
+     <a href="#void"><img src="./.srcs/eid.step01.12.png" alt="추가해야할 속성 리스트" /></a>            
+
+## 앱 속성 변경
+  1. `<name>-Salesforce` 앱의 `속성` 메뉴에서 `할당이 필요함니까?` 항목을 `아니오`로 변경
+  2. 화면 아래쪽의 `저장` 버튼 클릭하여 변경 내용 저장
+
+## SP에 제공할 메타데이터 XML 다운로드
+  1. (3)SAML 인증서 섹션에서 `페더레이션 메타데이터 XML`에 대한 `다운로드` 링크 클릭
+     <a href="#void"><img src="./.srcs/eid.step01.07.png" alt="SAML SP 정보 입력" /></a>

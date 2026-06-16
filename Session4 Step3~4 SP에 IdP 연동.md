@@ -1,5 +1,5 @@
 ## Salesforce 로그인
-  1. [EID Lab 사전 준비사항](EID%20Lab%20사전%20준비사항.md) 참고하여 접근 도메인 및 관리자 계정 확인
+  1. [Lab 사전 준비사항1](Lab%20사전%20준비사항1.md) 참고하여 접근 도메인 및 관리자 계정 확인
   2. 브라우저에서 생성된 Salseforce URL로 접근(`https://orgfarm-<random key>-dev-ed.develop.my.salesforce.com/`)
   3. 관리자 계정을 입력하여 로그인
 
@@ -28,7 +28,10 @@
   1. 새로 만든 `SAML 싱글사인온(Sso) 설정` 화면의 `사용자 정의 로그아웃 URL`에 복사한 값 붙여넣기
   2. 이름 기본값(sts)을 `Entra ID로 로그인` 으로 변경
   3. API 이름 기본값(sts)을 'EntraID'로 변경
-  4. `저장` 버튼 클릭
+  4. `SAML ID 유형` 에서 `어설션에는 사용자 개체의 연합 ID가 포함되어 있습니다.` 선택
+  5. `적시 사용자 프로비저닝` 에서 `사용자 프로비저닝이 활성화됨` 체크 필수
+  6. `사용자 프로비저닝 유형` 에서 `표준` 선택
+  7. `저장` 버튼 클릭
   
      <a href="#void"><img src="./.srcs/sfdc.step02.04.png" alt="SSO 활성화"/></a>
 
