@@ -76,6 +76,10 @@ Codespace 메인 페이지가 열립니다.
 
 ![Step 4 화면 3](./.srcs/msal.12.png)
 
+[Use this template] 버튼을 누를 때마다 Codespace 환경이 계속 추가됩니다. 최초 1회 생성시에만 해당 버튼을 사용하고 이후는 생성된 환경을 선택하여 개발환경에 진입합니다.
+
+![Step 4 화면 4](./.srcs/msal.12-1.png)
+
 ---
 
 ## Step 5. Codespace 실행 완료
@@ -84,6 +88,8 @@ Codespace 메인 페이지가 열립니다.
 이제 터미널, 파일 탐색기, 에디터를 통한 실습을 진행할 수 있습니다.
 
 ![Step 5 화면](./.srcs/msal.13.png)
+
+---
 
 ## Step 6. 실습 코드 다운로드
 
@@ -112,3 +118,24 @@ git clone https://github.com/NETS-SecurityLabs/EntraID_MSAL.git
 ![alt text](./.srcs/msal.19.png)
 
 나머지 과정은 HOL.md 파일을 통해 진행됩니다.
+
+---
+
+## Appendix
+
+- <b>"Maximum running codespaces reached"</b> 오류 메시지
+무료 버전의 Github codespace는 동시에 두 개의 codespace를 실행할 수 없습니다.
+만약 [Use this template] 버튼을 통해 둘 이상의 codespace가 생성된 경우 둘 중 하나는 정지되어 있어야 합니다.
+
+![alt text](./.srcs/msal.20.png)
+
+- <b>"Setting up your codespace"</b> 단계에서 멈춤현상
+드물게 아래의 화면과 같이 codespace 환경의 준비 도중 진행이 되지 않는 현상이 있습니다.
+이 경우 사용중인 환경을 변경해서 다시 시도해 보시기 바랍니다.
+
+1. 네트워크 환경 변경(wifi AP 변경 혹은 테더링을 통한 접속)
+2. 접속 브라우저 변경(다른 브라우저 사용 혹은 in-private 모드 사용 등)
+
+정확한 원인은 확인되지 않았고 상기의 조치로도 현상이 해소되지 않는 경우도 있습니다.
+
+![alt text](./.srcs/msal.21.png)
