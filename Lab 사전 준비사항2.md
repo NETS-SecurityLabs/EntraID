@@ -77,6 +77,7 @@ Codespace 메인 페이지가 열립니다.
 ![Step 4 화면 3](./.srcs/msal.12.png)
 
 [Use this template] 버튼을 누를 때마다 Codespace 환경이 계속 추가됩니다. 최초 1회 생성시에만 해당 버튼을 사용하고 이후는 생성된 환경을 선택하여 개발환경에 진입합니다.
+Codespace의 이름은 랜덤으로 생성됩니다. 다음의 이미지를 참고하여 각자 자신의 환경에 생성된 .NET 개발환경에 접속합니다.
 
 ![Step 4 화면 4](./.srcs/msal.12-1.png)
 
@@ -126,6 +127,7 @@ git clone https://github.com/NETS-SecurityLabs/EntraID_MSAL.git
 - <b>"Maximum running codespaces reached"</b> 오류 메시지
 무료 버전의 Github codespace는 동시에 두 개의 codespace를 실행할 수 없습니다.
 만약 [Use this template] 버튼을 통해 둘 이상의 codespace가 생성된 경우 둘 중 하나는 정지되어 있어야 합니다.
+다음 이미지를 참고하여 생성된 Codespace의 상태를 확인하고 [...] 버튼을 통해 동작중인 codespace를 정지할 수 있습니다.
 
 ![alt text](./.srcs/msal.20.png)
 
@@ -136,6 +138,6 @@ git clone https://github.com/NETS-SecurityLabs/EntraID_MSAL.git
 1. 네트워크 환경 변경(wifi AP 변경 혹은 테더링을 통한 접속)
 2. 접속 브라우저 변경(다른 브라우저 사용 혹은 in-private 모드 사용 등)
 
-정확한 원인은 확인되지 않았고 상기의 조치로도 현상이 해소되지 않는 경우도 있습니다.
+아직 명확한 원인이 확인되지 않은 현상으로 상기의 조치로도 오류 현상이 해소되지 않는 경우도 있습니다.
 
 ![alt text](./.srcs/msal.21.png)
